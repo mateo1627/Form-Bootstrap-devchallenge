@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container w-50">
+
+        <div class="img__container">
+            <img src="/contact-form-icon.svg" alt="">
+        </div>
+        
+        <h1 class="text-light mt-5  text-center col-sm-12">Interested in  our <br>business pricing?</h1>
+        <h6 class="mt-3 mb-3 text-center text-light">Fill out the form to view details and we’ll contact you as soon as possible.</h6>
+        <div class="row">
+            <div class="col-md-6 col-sm-12 mb-3">
+                <label class="form-label text-light" for="fName" class="form-label">Name</label>
+                <input class="col-md-6 form-control" id="fName" type="text" placeholder="Ethan Johnson"
+                    aria-label="default input example">
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="exampleFormControlInput1" class="form-label text-light">Company Email</label>
+                <input type="email" class="form-control col-md-6" id="exampleFormControlInput1"
+                    placeholder="ethan@Johnson.com">
+            </div>
+        </div>
+
+        <div class="row d-flex">
+            <div class="col-md-6 ">
+                <label for="company" class="form-label text-light">Company size</label>
+                <select class="form-select  mb-3 form-select-md" id="company" aria-label="Small select example">
+                    <option disabled selected>50-100 employees</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+            <div class="col-md-6 ">
+                <label for="subject" class="form-label text-light">Subject</label>
+                <select id="subject" class="form-select mb-3 form-select-md" aria-label="Small select example">
+                    <option class="text-light" selected>Building landing pages</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+        </div>
+        <div class="mb-3 message-box">
+            <label for="exampleFormControlTextarea1" class="form-label text-light">Message</label>
+            <textarea placeholder="50-100 employees" class="form-control message" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button class="btn btn-light text-primary-bg-subtle p-2 col-12">Contact Sales</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
